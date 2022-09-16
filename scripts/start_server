@@ -1,0 +1,4 @@
+#!/bin/bash
+cd /home/ec2-user/AWS_Test_Deployment
+pm2 start pm2.json
+supervisord -c supervisord.conf
